@@ -1,0 +1,5 @@
+https://www.polsatnews.pl/rss/wszystkie.xml
+https://www.polsatnews.pl/rss/polska.xml
+https://rss.art19.com/apology-line
+https://rss.acast.com/unraveled
+https://wydarzenia.interia.pl/polska/feed

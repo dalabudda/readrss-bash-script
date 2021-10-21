@@ -1,0 +1,84 @@
+.\" Komentarz
+
+.TH readrss 1 "10 czerwca 2021" "1.0" "ReadRSS Manual"
+
+.SH NAZWA
+ReadRSS \- skrypt umożliwiający przeglądanie artykułów RSS.
+
+.SH SKŁADNIA
+.B readrss -r r|raw|s|simple|e|extended -n
+.I numer 
+[ 
+.B -l 
+.I limit 
+]
+
+.B readrss -r r|raw|s|simple|e|extended -u
+.I url 
+[ 
+.B -l 
+.I limit 
+]
+
+.B readrss -s
+
+.B readrss -a 
+.I url
+
+.B readrss -d -n 
+.I numer
+
+.B readrss -d -u 
+.I url
+
+.B readrss -v
+
+.B readrss -h
+
+.SH OPIS
+ReadRSS umożliwia pobieranie, wyświetlanie i nawigowanie po artykułach na podstawie adresów url. 
+
+Możliwe jest też dodawanie adresów do listy zapisanych, usuwanie ich, oraz wyświetlanie tej listy.
+
+.SH OPCJE
+.B \-h	
+wyświetla pomoc.
+
+.B \-v	
+wyświetla numer wersji oraz autora.
+
+.B\-s	
+wyświetla listę zapisanych adresów RSS wraz z ich numerami id.
+
+.B \-r	
+wyświetla wybrany RSS feed w formie surowej (r|raw), prostej (s|simple) lub rozszerzonej (e|extended).
+
+.B \-l	
+ustawia limit wyświetlanych wiadomości.
+
+.B \-n	
+wybiera RSS feed zapisany pod wybranym numerem na liście.
+
+.B \-u	
+wybiera wpisany adres RSS.
+
+.B \-a	
+dodaje nowy adres RSS do listy zapisanych.
+
+.B \-d	
+usuwa wybrany RSS feed z listy zapisanych.
+
+.SH PLIKI
+ReadRSS.sh \- główny plik wykonywalny skryptu.
+
+config.rc \- dane konfiguracyjne skryptu.
+
+saved.txt \- lista zapisanych adresów RSS.
+
+tmp \- katalog na pliki tymczasowe używane w trakcie działania skryptu.
+
+.SH BŁĘDY
+Brak znanych.
+
+.SH AUTOR
+Dawid Labudda
